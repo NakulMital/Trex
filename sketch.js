@@ -30,7 +30,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(600, 200);
+  createCanvas(1920, 1080);
   
   trex = createSprite(50,180,20,50);
   trex.addAnimation("running", trex_running);
